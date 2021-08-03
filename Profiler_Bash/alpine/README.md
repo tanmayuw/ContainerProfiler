@@ -1,0 +1,1 @@
+alpine release of bash version of container profiler. 
