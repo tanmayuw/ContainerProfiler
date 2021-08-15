@@ -9,7 +9,6 @@ read imagetag
 
 mkdir $outdir
 
-
 result=$(docker images -q "$imagetag" )
 
 echo "Result...."
@@ -22,6 +21,6 @@ else
   docker build -t "$imagetag" .  
 fi
 
-#echo docker run --rm -it -v $PWD/$outdir:/.cprofiles alpinepythonsampler $command
 echo "running..."
-docker run --rm -it -v ${PWD}/$outdir:/data -e PROFILER_TIME_STEPS=$delta -e PROFILER_OUTPUT_DIR=/data "$imagetag" "$command"
+
+docker run --rm -it -v ${PWD}/$outdir:/.cprofiles -e PROFILER_TIME_STEPS=$delta "$imagetag" "$command"

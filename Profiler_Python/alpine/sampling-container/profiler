@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #======================================================================
 #- IMPLEMENTATION
 #-    version         profiler (https://www.washington.edu/) 0.3
@@ -46,7 +46,7 @@ fi
 
 chmod 777 profiler
 
-echo $PROFILER_TIME_STEPS
+#echo $PROFILER_TIME_STEPS
 if [ $PROFILER_TIME_STEPS -eq 0 ]
 then
     python3 ./rudataall-psutil.py -vcp $PROFILER_OUTPUT_DIR
