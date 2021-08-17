@@ -2,13 +2,13 @@
 import argparse
 import os
 import json
-import ConfigParser
+import configparser
 
 
 from collections import namedtuple
 
 generated_script= open("auto_generated_delta_script.py","w")
-generated_script.write("import argparse\nimport os\nimport shutil\nimport sys\nimport json\nimport copy\nimport ConfigParser\nfrom collections import namedtuple\n\n")
+generated_script.write("import argparse\nimport os\nimport shutil\nimport sys\nimport json\nimport copy\nimport configparser\nfrom collections import namedtuple\n\n")
 
 generated_script.write("parser = argparse.ArgumentParser(description='process path and file /or string of metrics.')\n")
 generated_script.write("parser.add_argument('file_path', action='store', help='stores the filepath to the folder holding all the JSON files')\n")
@@ -41,7 +41,7 @@ generated_script.write("\t\texcept Exception as e:\n")
 
 generated_script.write("\t\t\tprint (\"{} invalid file\".format(json_file))\n")
 generated_script.write("\t\t\tpass\n")
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser()
 config.optionxform = str 
 config.read('graph_generation_config.ini')
 
@@ -52,15 +52,15 @@ generated_script.write("\tjson_three = copy.deepcopy(the_json_two)\n")
 for (each_key, each_val) in config.items('all'):
         if ( each_val == 'numeric_delta'): #and each_key.isdigit()):
 
-		json_one = "the_json_one['" +each_key+"']"
-		json_two = "the_json_two['" +each_key+"']"
-		json_three = "json_three['" +each_key+"']"
-		generated_script.write("\t" + json_three +"=" + json_two +'-' + json_one+"\n")
+                json_one = "the_json_one['" +each_key+"']"
+                json_two = "the_json_two['" +each_key+"']"
+                json_three = "json_three['" +each_key+"']"
+                generated_script.write("\t" + json_three +"=" + json_two +'-' + json_one+"\n")
 
 if (config.get('cprocessorstats','cCpu#TIME')):
-	generated_script.write("\tfor (each_key) in the_json_two['cProcessorStats']:\n")
-	generated_script.write("\t\tif ('cCpu' in each_key and 'TIME' in each_key):\n")
-	generated_script.write("\t\t\tjson_three['cProcessorStats'][each_key] = the_json_two['cProcessorStats'][each_key] - the_json_one['cProcessorStats'][each_key]\n")
+        generated_script.write("\tfor (each_key) in the_json_two['cProcessorStats']:\n")
+        generated_script.write("\t\tif ('cCpu' in each_key and 'TIME' in each_key):\n")
+        generated_script.write("\t\t\tjson_three['cProcessorStats'][each_key] = the_json_two['cProcessorStats'][each_key] - the_json_one['cProcessorStats'][each_key]\n")
 generated_script.write("\treturn json_three\n\n")
 
 generated_script.write("delta_json_array=[]\n")
@@ -84,5 +84,5 @@ generated_script.write("\twith open(delta_name_array[i], 'w') as fp:\n")
 generated_script.write("\t\tjson.dump(delta_json_array[i], fp, sort_keys=True, indent=2)\n")
 
 
-	
-		
+        
+                

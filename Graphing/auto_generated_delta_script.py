@@ -4,7 +4,7 @@ import shutil
 import sys
 import json
 import copy
-import ConfigParser
+import configparser
 from collections import namedtuple
 
 parser = argparse.ArgumentParser(description='process path and file /or string of metrics.')
