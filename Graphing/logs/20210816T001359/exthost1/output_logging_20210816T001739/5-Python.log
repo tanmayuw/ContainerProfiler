@@ -1,0 +1,31 @@
+Python interpreter path: /bin/python3
+Starting Pylance language server.
+Error 2021-08-16 00:17:40: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/root/.config/Code/User/settings.json' (Error: Unable to resolve non-existing file '/root/.config/Code/User/settings.json')
+	at _handleError (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:158459)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async y.readText (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:9:337798)
+	at async p.doesFileNeedToBeFixed (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:589277)
+	at async /root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:588404
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:588350)
+	at async p.updateTestSettings (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:587977)] {
+  code: 'FileNotFound'
+}
+Error 2021-08-16 00:17:40: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file '/home/ts/Graphing/.vscode/settings.json' (Error: Unable to resolve non-existing file '/home/ts/Graphing/.vscode/settings.json')
+	at _handleError (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:158459)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async y.readText (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:9:337798)
+	at async p.doesFileNeedToBeFixed (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:589277)
+	at async /root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:588404
+	at async Promise.all (index 1)
+	at async p.getFilesToBeFixed (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:588350)
+	at async p.updateTestSettings (/root/.vscode/extensions/ms-python.python-2021.8.1105858891/out/client/extension.js:59:587977)] {
+  code: 'FileNotFound'
+}
+> conda --version
+> /bin/python -c "import ipykernel; print(ipykernel.__version__)"
+> /bin/python -c "import ipykernel; print(ipykernel.__version__)"
+> /usr/bin/python3 -c "import ipykernel; print(ipykernel.__version__)"
+> /usr/bin/python3 -c "import ipykernel; print(ipykernel.__version__)"
+Error 2021-08-16 00:21:02: Error while running worker[Worker 2]. undefined
+Error 2021-08-16 00:21:02: Error while running worker[Worker 1]. undefined

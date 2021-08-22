@@ -1,0 +1,200 @@
+Validating found git in: git
+Using git 2.25.1 from git
+Opening repository for path='/home/ts/Graphing' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/1.59.0-main.sock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/7thread_vm_container.csv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/Backups' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/Cache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/CachedData' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/CachedExtensions' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/Code Cache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/Container_images_images' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/Crash Reports' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/GPUCache' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/Local Storage' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/Network Persistent State' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/QuotaManager' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/QuotaManager-journal' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/README.md' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/Service Worker' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/User' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/VM_images_images' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/auto_generated_delta_script.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/blob_storage' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/code.lock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/csv_generation_2.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/csv_metrics' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/databases' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/delta_configuration.ini' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/delta_json_generation.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/exthost Crash Reports' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/graph_all.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/graph_all_json' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/graph_generation_config.ini' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/install_dependencies.sh' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/languagepacks.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/log.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/logs' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/machineid' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/notebook.ipynb' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/plotly_graph_generation.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/plotly_stack_graphs.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/process_filter.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/process_info' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/process_info.csv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/process_info_report.py' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/processes_used.csv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/storage.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/vm_container.csv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/vm_container.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/vm_container.tsv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing/vm_container_images' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/vm_container_images_python' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing/vm_container_python.csv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/ts/Graphing' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/ts/Graphing' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

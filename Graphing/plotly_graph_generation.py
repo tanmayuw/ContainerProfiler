@@ -56,7 +56,7 @@ def makegraphs(metrics, df):#, graph_function):
 	row_col_length = graphs_rows_cols(metrics_count)
 	length = row_col_length * row_col_length
 	x = ((float(metrics_count) / length))
-	for i in xrange(int(math.ceil(x))):
+	for i in range(int(math.ceil(x))):
 		sliced_metrics = slice_for_x(metrics, start, length)
 		fig = make_subplots(rows=row_col_length, cols=row_col_length, subplot_titles=sliced_metrics)
 
@@ -113,8 +113,6 @@ args= parser.parse_args()
 #dataframe read into from cmdline
 data_frame = pd.read_csv(args.csv_file)
 data_frame.head()
-
-
 data_frame['currentTime'] = data_frame['currentTime'] - data_frame['currentTime'][0]
 data_frame=data_frame.iloc[::args.sampling_interval]
 data_frame.name=args.csv_file

@@ -80,8 +80,12 @@ print("Finished Creating a csv file based on dela information created")
 
 print("Starting Graphing process")
 if (args.dynamic_creation) :
+	#print ("Tanmay METRICS HERE:")
+	#print (metrics)
 	os.system("python plotly_graph_generation.py {} {} -d".format("vm_container.csv", metrics)) 
 else :
+	print ("Tanmay METRICS HERE:")
+	print (metrics)
 	os.system("python plotly_graph_generation.py {} {}".format("vm_container.csv", metrics)) 
 
 print("Finished Graphing process")

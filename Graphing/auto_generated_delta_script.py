@@ -4,7 +4,7 @@ import shutil
 import sys
 import json
 import copy
-import ConfigParser
+import configparser
 from collections import namedtuple
 
 parser = argparse.ArgumentParser(description='process path and file /or string of metrics.')
@@ -19,8 +19,7 @@ if not os.path.exists(file_path + '/delta_json'):
 
 json_array = []
 delta_name_array = []
-dirs=  [i for i in os.listdir( file_path ) if i.endswith(".json")]
-dirs.sort()
+dirs=  sorted([i for i in os.listdir( file_path ) if i.endswith(".json")])
 for file_name in dirs:
 	with open(file_path + '/' + file_name) as json_file: 
 		try:

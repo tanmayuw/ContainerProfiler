@@ -1,0 +1,23 @@
+[2021-08-16 00:14:12.374] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-08-16 00:14:32.372] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-08-16 00:14:32.373] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-08-16 00:14:42.374] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-08-16 00:17:17.919] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-08-16 00:17:18.647] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-08-16 00:17:18.648] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-08-16 00:17:23.321] [sharedprocess] [info] Downloaded extension: ms-python.python /home/ts/Graphing/CachedExtensionVSIXs/ms-python.python-2021.8.1105858891
+[2021-08-16 00:17:23.878] [sharedprocess] [info] Extensions is already requested to install ms-toolsai.jupyter
+[2021-08-16 00:17:24.249] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/ts/Graphing/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.8.1195043623
+[2021-08-16 00:17:27.104] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.6cc5907e-7618-4540-8914-965d23ae5898: ms-toolsai.jupyter
+[2021-08-16 00:17:27.115] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623
+[2021-08-16 00:17:27.118] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-08-16 00:17:29.701] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.dc511eea-0ecf-47fd-b8ea-199baa7f094b: ms-python.python
+[2021-08-16 00:17:29.713] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.python-2021.8.1105858891
+[2021-08-16 00:17:29.717] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-08-16 00:17:33.600] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/ts/Graphing/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.8.1
+[2021-08-16 00:17:38.376] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.cc187b2a-8733-408f-8989-1c9d38bd853a: ms-python.vscode-pylance
+[2021-08-16 00:17:38.385] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.vscode-pylance-2021.8.1
+[2021-08-16 00:17:38.387] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-08-16 00:17:38.392] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-08-16 00:17:38.393] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-08-16 00:17:38.393] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

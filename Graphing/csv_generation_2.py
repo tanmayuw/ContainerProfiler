@@ -39,7 +39,7 @@ dirs = os.listdir( file_path )
 
 # processes dictionary to store process level data
 processes = dict()
-dirs=  [i for i in os.listdir( file_path ) if i.endswith(".json")]
+dirs=  sorted([i for i in os.listdir( file_path ) if i.endswith(".json")])
 
 for file in dirs:
     with open(file_path+'/'+file) as f:
@@ -54,23 +54,20 @@ for file in dirs:
 	#print metrics
         for k in y:
             if not (k == "pProcesses" or k == "cProcessorStats"):
-			if k in metrics or len(metrics) == 1:
-				r[k] = y[k]
-	if ("cProcessorStats" in y and "cNumProcessors" in y):
-	    for k in y["cProcessorStats"]:
-		    if (k in metrics or len(metrics) == 0):
-
-	                r[k] = y["cProcessorStats"][k]
-
+                if k in metrics or len(metrics) == 1:
+                    r[k] = y[k]
+        if ("cProcessorStats" in y and "cNumProcessors" in y):
+            for k in y["cProcessorStats"]:
+                if (k in metrics or len(metrics) == 0):
+                    r[k] = y["cProcessorStats"][k]
         totalProcesses = len(y["pProcesses"]) - 1
 	#print y["pProcesses"][len(y["pProcesses"]) - 1]
-	
-	for k in y["pProcesses"][totalProcesses]:
-		if k == "pTime":
-			r["pTime"] = y["pProcesses"][totalProcesses]["pTime"]
+        for k in y["pProcesses"][totalProcesses]:
+            if k == "pTime":
+                r["pTime"] = y["pProcesses"][totalProcesses]["pTime"]
 	
         # Loop through the process level data
-        for i in xrange(totalProcesses):
+        for i in range(totalProcesses):
             # A dictinary containing process level data
             s = {"filename": file}
 
@@ -92,7 +89,7 @@ for file in dirs:
 if not os.path.exists('./process_info/{}'.format(os.path.basename(os.path.normpath(file_path)))):
 	os.makedirs('./process_info/{}'.format(os.path.basename(os.path.normpath(file_path))))
 
-for key, value in processes.iteritems():
+for key, value in processes.items():
     df1 = pd.DataFrame(value)
     df1 = df1.sort_values(by='currentTime', ascending=True)
     df1.to_csv("./process_info/{}/Pid, {}.csv".format(os.path.basename(os.path.normpath(file_path)),str(key)))

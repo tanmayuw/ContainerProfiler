@@ -1,0 +1,416 @@
+[2021-08-16 00:14:39.531] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:14:39.532] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:14:39.616] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:14:39.616] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:14:41.667] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:14:41.667] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:14:42.061] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:14:42.062] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:14:42.904] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:14:42.904] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:14:44.538] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:14:44.539] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:15.666] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:15.667] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:15.828] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:15.829] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:16.968] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:16.969] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:17.112] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:17.114] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:32.321] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:32.321] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:33.098] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:33.099] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:33.273] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:33.274] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:50.376] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:50.378] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:51.192] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:51.198] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-08-16 00:15:51.359] [renderer1] [critical] FAILED to destory notebook {"name":"SyntaxError","message":"Unexpected token c in JSON at position 0"}
+[2021-08-16 00:15:51.360] [renderer1] [error] SyntaxError: Unexpected token c in JSON at position 0
+	at JSON.parse (<anonymous>)
+	at e.NotebookSerializer.deserializeNotebook (/snap/code/71/usr/share/code/resources/app/extensions/ipynb/dist/ipynbMain.js:1:145756)
+	at _.$dataToNotebook (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:211988)
+	at h._doInvokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12819)
+	at h._invokeHandler (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:12503)
+	at h._receiveRequest (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11107)
+	at h._receiveOneMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10142)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:8039
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:30060
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at c.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15825)
+	at r._receiveMessage (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:21091)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17969
+	at d.fire (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1712)
+	at v.acceptChunk (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:13186)
+	at /snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12534
+	at Socket.w (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:13218)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)

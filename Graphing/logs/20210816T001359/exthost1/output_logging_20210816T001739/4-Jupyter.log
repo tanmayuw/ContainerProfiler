@@ -1,0 +1,1091 @@
+Error 2021-08-16 00:17:39: Exception while attempting zmq : [Error: /snap/core/current/usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/node_modules/zeromq/prebuilds/linux-x64/electron.napi.glibc.node)
+	at process.func [as dlopen] (electron/js2c/asar_bundle.js:5:1846)
+	at Object.Module._extensions..node (internal/modules/cjs/loader.js:1185:18)
+	at Object.func [as .node] (electron/js2c/asar_bundle.js:5:1846)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:28060)
+	at Function.P._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:24648)
+	at Function.l._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:59608)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/71/usr/share/code/resources/app/out/vs/loader.js:4:698)
+	at load (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/node_modules/node-gyp-build/index.js:21:10)
+	at Object.<anonymous> (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/node_modules/zeromq/lib/native.js:6:43)
+	at Module.u._compile (/snap/code/71/usr/share/code/resources/app/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:28060)
+	at Function.P._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:24648)
+	at Function.l._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:59608)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/71/usr/share/code/resources/app/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/node_modules/zeromq/lib/index.js:3:16)
+	at Module.u._compile (/snap/code/71/usr/share/code/resources/app/out/vs/loader.js:4:1315)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1155:10)
+	at Module.load (internal/modules/cjs/loader.js:982:32)
+	at Module._load (internal/modules/cjs/loader.js:823:14)
+	at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+	at Function.n._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:28060)
+	at Function.P._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:24648)
+	at Function.l._load (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:59608)
+	at Module.require (internal/modules/cjs/loader.js:1006:19)
+	at v (/snap/code/71/usr/share/code/resources/app/out/vs/loader.js:4:698)
+	at Object.<anonymous> (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:37:305214)
+	at n (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:1:186)
+	at d.zmqSupported (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:90:454400)
+	at d.isSupportedForLocalLaunch (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:90:454050)
+	at d.supported (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:90:453960)
+	at Object.t.registerTypes (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:52:811447)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:52:245984
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:37:848014
+	at async t.activate (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:37:847701)
+	at async Promise.all (index 0)
+	at async v.$activate (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:20144)]
+Info 2021-08-16 00:17:39: id is 817c2879-a677-45e5-ba2d-1d186e1152d3
+Error 2021-08-16 00:17:39: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/root/.config/Code/User/settings.json' (Error: Unable to resolve non-existing file '/root/.config/Code/User/settings.json')
+	at _handleError (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:158459)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:90:556874)
+	at async g.fixSettingsFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:52:281266)
+	at async Promise.all (index 0)
+	at async g.updateSettings (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:52:282986)] {
+  code: 'FileNotFound'
+}
+Error 2021-08-16 00:17:39: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/ts/Graphing/.vscode/settings.json' (Error: Unable to resolve non-existing file '/home/ts/Graphing/.vscode/settings.json')
+	at _handleError (/snap/code/71/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:158459)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:90:556874)
+	at async g.fixSettingsFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:52:281266)
+	at async Promise.all (index 1)
+	at async g.updateSettings (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:52:282986)] {
+  code: 'FileNotFound'
+}
+Info 2021-08-16 00:17:39: Loading kernelspec from /usr/local/share/jupyter/kernels/python3/kernel.json for undefined
+Info 2021-08-16 00:17:39: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:17:40: Find preferred kernel for file:///home/ts/Graphing/nub.ipynb with metadata {"orig_nbformat":4,"language_info":{"name":"plaintext"}} & preferred interpreter {}
+Info 2021-08-16 00:17:40: findPreferredKernel score for Python 2.7.18 64-bit is -1
+Info 2021-08-16 00:17:40: findPreferredKernel score for Python 2.7.18 64-bit is -1
+Info 2021-08-16 00:17:40: findPreferredKernel score for Python 3.8.10 64-bit is -1
+Info 2021-08-16 00:17:40: findPreferredKernel score for Python 3.8.10 64-bit is -1
+Info 2021-08-16 00:17:40: Find kernel spec, Class name = C, completed in 789ms, has a falsy return value, Arg 1: <Uri:/home/ts/Graphing/nub.ipynb>, Arg 2: {"orig_nbformat":4,"language_info":{"name":"plaintext"}}, Arg 3: {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{"next":{},"prev":{}},"_last":{"next":{},"prev":{}},"_size":1}}}, Return Value: undefined
+Info 2021-08-16 00:17:40: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:17:40: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:17:40: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -c "import jupyter"
+> /bin/python3 -c "import jupyter"
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -c "import jupyter"
+> /bin/python3 -c "import jupyter"
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -c "import notebook"
+> /bin/python3 -c "import notebook"
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -c "import notebook"
+> /bin/python3 -c "import notebook"
+Info 2021-08-16 00:17:40: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -m jupyter kernelspec --version
+> /bin/python3 -m jupyter kernelspec --version
+Info 2021-08-16 00:17:40: Process Execution: > /bin/python3 -m jupyter kernelspec --version
+> /bin/python3 -m jupyter kernelspec --version
+Info 2021-08-16 00:17:49: No controller, hence notebook communications cannot be initialized for editor file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:29: Setting setActiveController for file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:29: Intiailize notebook communications for editor file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:29: Resolving notebook UI Comms (resolve) for file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:29: initialize CommonMessageCoordinator
+Info 2021-08-16 00:19:29: IPyWidgetMessageDispatcher.initialize
+Info 2021-08-16 00:19:29: Created and initailized CommonMessageCoordinator
+Info 2021-08-16 00:19:29: Attach Coordinator for file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:29: [32mPosting message to Notebook UI 
+Info 2021-08-16 00:19:29: KernelProvider switched kernel to id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+Info 2021-08-16 00:19:29: Starting Notebook in kernel.ts id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+Info 2021-08-16 00:19:29: Checking for server existence.
+Info 2021-08-16 00:19:29: Checking for server usability.
+Info 2021-08-16 00:19:29: Starting notebook server.
+Info 2021-08-16 00:19:29: Connecting to history server
+Info 2021-08-16 00:19:29: Launching history server
+Info 2021-08-16 00:19:29: Starting Notebook
+Info 2021-08-16 00:19:29: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-08-16 00:19:29: Generating custom default config at /tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py
+Info 2021-08-16 00:19:29: Starting Jupyter Notebook
+Starting Jupyter from /bin/python3 with command line --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:29: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:19:29: Creating daemon pool for /bin/python3 with env variables count 0
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+> /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+> /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+> /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+> /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+> /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+> /bin/python3 -m vscode_datascience_helpers.daemon --daemon-module=vscode_datascience_helpers.jupyter_daemon -v
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python -c "import pip"
+> /bin/python -c "import pip"
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python -c "import pip"
+> /bin/python -c "import pip"
+Info 2021-08-16 00:19:29: Process Execution: > /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+> /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:29: Waiting for Jupyter Notebook
+Info 2021-08-16 00:19:29: Python Daemon (pid: 43115): Execute rpc method exec_module_observable in DS Daemon
+Info 2021-08-16 00:19:29: Python Daemon (pid: 43115): Execute rpc method exec_module_observable from /bin/python3
+Info 2021-08-16 00:19:29: Python Daemon (pid: 43115): Exec in DS Daemon (observable) jupyter with args ['notebook', '--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): Starting notebook with args ['--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): write to stderr: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+Info 2021-08-16 00:19:30: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+Info 2021-08-16 00:19:30: [32mWidget Coordinator received IPyWidgets_Ready
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): write to stderr: [I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+[I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+Info 2021-08-16 00:19:30: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+[I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): write to stderr: [C 00:19:30.464 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+[C 00:19:30.464 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Info 2021-08-16 00:19:30: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+[I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[C 00:19:30.464 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): Failed executing an rpc method. Error: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+Error 2021-08-16 00:19:30: Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0 [p [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250631] {
+  category: 'daemon'
+}
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:30: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+[I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[C 00:19:30.464 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+Error 2021-08-16 00:19:30: failed to create INotebook in kernel, UI Disabled = true [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+[I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+[C 00:19:30.464 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:30: failed to start INotebook in kernel, UI Disabled = true [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+[I 00:19:30.120 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+[C 00:19:30.464 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6fea31c-e8b5-40ba-8d0b-98ae81f2610e/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): Execute rpc method ping in DS Daemon
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): Execute rpc method ping from /bin/python3
+Info 2021-08-16 00:19:30: Python Daemon (pid: 43115): pinged with hello
+Info 2021-08-16 00:19:30: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:19:30: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-08-16 00:19:30: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-08-16 00:19:30: Process Execution: > /bin/python -c "import pip"
+> /bin/python -c "import pip"
+Info 2021-08-16 00:19:30: Process Execution: > /bin/python -c "import pip"
+> /bin/python -c "import pip"
+Info 2021-08-16 00:19:35: Execute Cells request 1 0
+Info 2021-08-16 00:19:35: Execute Cell 0 file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:35: Cell Index:0, state:undefined, exec: undefined. User queued cell for execution
+Info 2021-08-16 00:19:35: Starting Notebook in kernel.ts id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+Info 2021-08-16 00:19:35: Checking for server existence.
+Info 2021-08-16 00:19:35: Checking for server usability.
+Info 2021-08-16 00:19:35: Starting notebook server.
+Info 2021-08-16 00:19:35: Connecting to history server
+Info 2021-08-16 00:19:35: Launching history server
+Info 2021-08-16 00:19:35: Starting Notebook
+Info 2021-08-16 00:19:35: Generating custom default config at /tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py
+Info 2021-08-16 00:19:35: Starting Jupyter Notebook
+Starting Jupyter from /bin/python3 with command line --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:35: Process Execution: > /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+> /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:35: Waiting for Jupyter Notebook
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Execute rpc method exec_module_observable in DS Daemon
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Execute rpc method exec_module_observable from /bin/python3
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Exec in DS Daemon (observable) jupyter with args ['notebook', '--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Starting notebook with args ['--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): write to stderr: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+Info 2021-08-16 00:19:35: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): write to stderr: [C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Info 2021-08-16 00:19:35: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Failed executing an rpc method. Error: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+Error 2021-08-16 00:19:35: Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0 [p [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250631] {
+  category: 'daemon'
+}
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:35: /usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+Error 2021-08-16 00:19:35: failed to create INotebook in kernel, UI Disabled = false [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:35: DataScience Error [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:35: failed to start INotebook in kernel, UI Disabled = false [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:35: Failed to execute cells in CellExecutionQueue [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+/usr/local/lib/python3.8/dist-packages/traitlets/traitlets.py:2196: FutureWarning: Supporting extra quotes around Unicode is deprecated in traitlets 5.0. Use '/home/ts/Graphing' instead of '"/home/ts/Graphing"' – or use CUnicode.
+  warn(
+
+[C 00:19:35.561 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/b6a14481-21b4-4ceb-96df-a4b3530c232a/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Info 2021-08-16 00:19:35: Cancel pending cells
+Info 2021-08-16 00:19:35: Cell Index:0, state:2, exec: undefined. Execution cancelled
+Info 2021-08-16 00:19:35: Cell Index:0, state:2, exec: undefined. Completed due to cancellation
+Info 2021-08-16 00:19:35: Cell Index:0, state:2, exec: undefined. Cell cancelled & resolving
+Info 2021-08-16 00:19:35: Cell Index:0, state:2, exec: undefined. Execution disposed
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Execute rpc method ping in DS Daemon
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): Execute rpc method ping from /bin/python3
+Info 2021-08-16 00:19:35: Python Daemon (pid: 43115): pinged with hello
+Info 2021-08-16 00:19:35: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:19:54: Execute Cells request 1 0
+Info 2021-08-16 00:19:54: Execute Cell 0 file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:19:54: Cell Index:0, state:1, exec: undefined. User queued cell for execution
+Info 2021-08-16 00:19:54: Starting Notebook in kernel.ts id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+Info 2021-08-16 00:19:54: Checking for server existence.
+Info 2021-08-16 00:19:54: Checking for server usability.
+Info 2021-08-16 00:19:54: Starting notebook server.
+Info 2021-08-16 00:19:54: Connecting to history server
+Info 2021-08-16 00:19:54: Launching history server
+Info 2021-08-16 00:19:54: Starting Notebook
+Info 2021-08-16 00:19:54: Generating custom default config at /tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py
+Info 2021-08-16 00:19:54: Starting Jupyter Notebook
+Starting Jupyter from /bin/python3 with command line --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:54: Process Execution: > /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+> /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:54: Waiting for Jupyter Notebook
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Execute rpc method exec_module_observable in DS Daemon
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Execute rpc method exec_module_observable from /bin/python3
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Exec in DS Daemon (observable) jupyter with args ['notebook', '--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Starting notebook with args ['--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:19:54: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): write to stderr: [C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+[C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Info 2021-08-16 00:19:54: [C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Failed executing an rpc method. Error: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+Error 2021-08-16 00:19:54: Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0 [p [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250631] {
+  category: 'daemon'
+}
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:19:54: [C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+Error 2021-08-16 00:19:54: failed to create INotebook in kernel, UI Disabled = false [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:54: DataScience Error [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:54: failed to start INotebook in kernel, UI Disabled = false [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:19:54: Failed to execute cells in CellExecutionQueue [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:19:54.958 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/74b3ca0f-f70c-437c-91f6-2438db647eb3/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Info 2021-08-16 00:19:54: Cancel pending cells
+Info 2021-08-16 00:19:54: Cell Index:0, state:2, exec: undefined. Execution cancelled
+Info 2021-08-16 00:19:54: Cell Index:0, state:2, exec: undefined. Completed due to cancellation
+Info 2021-08-16 00:19:54: Cell Index:0, state:2, exec: undefined. Cell cancelled & resolving
+Info 2021-08-16 00:19:54: Cell Index:0, state:2, exec: undefined. Execution disposed
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Execute rpc method ping in DS Daemon
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): Execute rpc method ping from /bin/python3
+Info 2021-08-16 00:19:54: Python Daemon (pid: 43115): pinged with hello
+Info 2021-08-16 00:20:08: Setting setActiveController for file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:20:08: Intiailize notebook communications for editor file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:20:08: Resolving notebook UI Comms (resolve) for file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:20:08: initialize CommonMessageCoordinator
+Info 2021-08-16 00:20:08: [32mPosting message to Notebook UI IPyWidgets_onKernelChanged
+Info 2021-08-16 00:20:08: IPyWidgetMessageDispatcher.initialize
+Info 2021-08-16 00:20:08: Created and initailized CommonMessageCoordinator
+Info 2021-08-16 00:20:08: Coordinator already attached for file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:20:08: Dispose kernel file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:20:08: KernelProvider switched kernel to id = .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher
+Info 2021-08-16 00:20:08: Starting Notebook in kernel.ts id = .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher
+Info 2021-08-16 00:20:08: Checking for server existence.
+Info 2021-08-16 00:20:08: Checking for server usability.
+Info 2021-08-16 00:20:08: Starting notebook server.
+Info 2021-08-16 00:20:08: Connecting to history server
+Info 2021-08-16 00:20:08: Launching history server
+Info 2021-08-16 00:20:08: Starting Notebook
+Info 2021-08-16 00:20:08: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:20:08: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list
+Info 2021-08-16 00:20:08: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list
+Info 2021-08-16 00:20:08: Generating custom default config at /tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py
+Info 2021-08-16 00:20:08: Starting Jupyter Notebook
+Starting Jupyter from /bin/python3 with command line --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:20:08: Process Execution: > /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+> /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:20:08: Waiting for Jupyter Notebook
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Execute rpc method exec_module_observable in DS Daemon
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Execute rpc method exec_module_observable from /bin/python3
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Exec in DS Daemon (observable) jupyter with args ['notebook', '--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Starting notebook with args ['--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:20:08: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): write to stderr: [C 00:20:08.799 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+[C 00:20:08.799 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Info 2021-08-16 00:20:08: [C 00:20:08.799 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Failed executing an rpc method. Error: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+Error 2021-08-16 00:20:08: Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0 [p [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250631] {
+  category: 'daemon'
+}
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:20:08: [C 00:20:08.799 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+Error 2021-08-16 00:20:08: failed to create INotebook in kernel, UI Disabled = true [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:20:08.799 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:20:08: failed to start INotebook in kernel, UI Disabled = true [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:20:08.799 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/ba2a07ca-edfa-46a6-99d3-b32e8fa37a75/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Execute rpc method ping in DS Daemon
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): Execute rpc method ping from /bin/python3
+Info 2021-08-16 00:20:08: Python Daemon (pid: 43115): pinged with hello
+Info 2021-08-16 00:20:10: Execute Cells request 1 0
+Info 2021-08-16 00:20:10: Execute Cell 0 file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:20:10: Cell Index:0, state:1, exec: undefined. User queued cell for execution
+Info 2021-08-16 00:20:10: Starting Notebook in kernel.ts id = .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher
+Info 2021-08-16 00:20:10: Checking for server existence.
+Info 2021-08-16 00:20:10: Checking for server usability.
+Info 2021-08-16 00:20:10: Starting notebook server.
+Info 2021-08-16 00:20:10: Connecting to history server
+Info 2021-08-16 00:20:10: Launching history server
+Info 2021-08-16 00:20:10: Starting Notebook
+Info 2021-08-16 00:20:11: Generating custom default config at /tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py
+Info 2021-08-16 00:20:11: Starting Jupyter Notebook
+Starting Jupyter from /bin/python3 with command line --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:20:11: Process Execution: > /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+> /bin/python3 (daemon) -m jupyter notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:20:11: Waiting for Jupyter Notebook
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Execute rpc method exec_module_observable in DS Daemon
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Execute rpc method exec_module_observable from /bin/python3
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Exec in DS Daemon (observable) jupyter with args ['notebook', '--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Starting notebook with args ['--no-browser', '--notebook-dir="/home/ts/Graphing"', '--config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py', '--NotebookApp.iopub_data_rate_limit=10000000000.0']
+Info 2021-08-16 00:20:11: Cached data exists getEnvironmentVariables, <No Resource>
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): write to stderr: [C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+[C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Info 2021-08-16 00:20:11: [C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Failed executing an rpc method. Error: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+Error 2021-08-16 00:20:11: Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0 [p [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250631] {
+  category: 'daemon'
+}
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+Info 2021-08-16 00:20:11: [C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+Error 2021-08-16 00:20:11: failed to create INotebook in kernel, UI Disabled = false [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:20:11: DataScience Error [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:20:11: failed to start INotebook in kernel, UI Disabled = false [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Error 2021-08-16 00:20:11: Failed to execute cells in CellExecutionQueue [i [Error]: Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 54, in _decorator
+    return func(self, *args, **kwargs)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 108, in m_exec_module_observable
+    self._start_notebook(args, cwd, env)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/jupyter_daemon.py", line 162, in _start_notebook
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.8/dist-packages/jupyter_core/application.py", line 254, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 845, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 2292, in start
+    self.exit(1)
+  File "/usr/local/lib/python3.8/dist-packages/traitlets/config/application.py", line 835, in exit
+    sys.exit(exit_status)
+SystemExit: 1
+
+[C 00:20:11.019 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+
+Failed to run jupyter as observable with args notebook --no-browser --notebook-dir="/home/ts/Graphing" --config=/tmp/5a85e077-958e-40dd-854c-e87b77ab4325/jupyter_notebook_config.py --NotebookApp.iopub_data_rate_limit=10000000000.0
+
+	at t.JupyterConnectionWaiter.rejectStartPromise (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:260669)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:261285)
+	at t.__tryOrUnsub (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8963)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:8364)
+	at t._error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:7241)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:6935)
+	at t.error (/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:16:64295)
+	at /root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/out/client/extension.js:24:250828] {
+  category: 'jupyterconnection'
+}
+Info 2021-08-16 00:20:11: Cancel pending cells
+Info 2021-08-16 00:20:11: Cell Index:0, state:2, exec: undefined. Execution cancelled
+Info 2021-08-16 00:20:11: Cell Index:0, state:2, exec: undefined. Completed due to cancellation
+Info 2021-08-16 00:20:11: Cell Index:0, state:2, exec: undefined. Cell cancelled & resolving
+Info 2021-08-16 00:20:11: Cell Index:0, state:2, exec: undefined. Execution disposed
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Execute rpc method ping in DS Daemon
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): Execute rpc method ping from /bin/python3
+Info 2021-08-16 00:20:11: Python Daemon (pid: 43115): pinged with hello
+Info 2021-08-16 00:21:02: Shutting down notebooks for 2634b711-1338-4338-b766-1e967c447728
+Info 2021-08-16 00:21:02: Disposing HostJupyterExecution cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Disposing super HostJupyterExecution cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Dispose kernel file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:21:02: Dispose kernel file:///home/ts/Graphing/nub.ipynb
+Info 2021-08-16 00:21:02: Disposing HostJupyterExecution cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Finished disposing HostJupyterExecution  cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Disposing HostJupyterExecution cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Finished disposing HostJupyterExecution  cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Getting live share API during dispose HostJupyterExecution cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Detaching HostJupyterExecution cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Cleaning up server cache cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Finished disposing HostJupyterExecution  cd42cfd6-730a-4f97-bc25-b00489a3b641
+Info 2021-08-16 00:21:02: Python Daemon (pid: 43115): write to stderr: [C 00:21:02.351 NotebookApp] received signal 15, stopping
+
+Error 2021-08-16 00:21:02: Python Daemon (pid: 43115): Traceback (most recent call last):
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/__main__.py", line 128, in main
+    daemon_cls.start_daemon(queue_handler)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 226, in start_daemon
+    server.start()
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/vscode_datascience_helpers/daemon/daemon_python.py", line 93, in start
+    self._jsonrpc_stream_reader.listen(self._endpoint.consume)
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/lib/python/pyls_jsonrpc/streams.py", line 29, in listen
+    request_str = self._read_message()
+  File "/root/.vscode/extensions/ms-toolsai.jupyter-2021.8.1195043623/pythonFiles/lib/python/pyls_jsonrpc/streams.py", line 51, in _read_message
+    line = self._rfile.readline()
+  File "/usr/local/lib/python3.8/dist-packages/notebook/notebookapp.py", line 1973, in _signal_stop
+    self.io_loop.add_callback_from_signal(self.io_loop.stop)
+AttributeError: 'NotebookApp' object has no attribute 'io_loop'
+

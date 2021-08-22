@@ -13,6 +13,15 @@ if [ ! -d "$OUTPUTDIR" ]; then
 	${@}
 	exit
 fi
+
+echo "enter verbosity"
+read verbosity
+
+if [verbosity =~ "(v)(c)(p)"]; then
+echo $ verbosity
+fi
+
+
 echo "Command is: ${@}"
 #run command goes in background
 ${@} &
@@ -26,7 +35,7 @@ while [ -n "$rpid" -a -e /proc/$rpid ]
 do
 
     t1=$(date '+%s%3N')
-    rudataall.sh > "${OUTPUTDIR}/$(date '+%Y_%m_%d__%H_%M_%S').json" &
+    rudataall.sh -"$verbosity" > "${OUTPUTDIR}/$(date '+%Y_%m_%d__%H_%M_%S').json" &
     t2=$(date '+%s%3N')
     let profile_time=$t2-$t1
     let sleep_time=$DELTA-$profile_time
