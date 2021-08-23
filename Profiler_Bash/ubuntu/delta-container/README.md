@@ -1,1 +1,0 @@
-delta container for the bash version of ubuntu release of Container Profiler

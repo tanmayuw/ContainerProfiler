@@ -1,1 +1,1 @@
-alpine release of bash version of container profiler. 
+Container for smapling in alpine linux
