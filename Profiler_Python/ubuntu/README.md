@@ -1,1 +1,1 @@
-ubuntu release of the Python based Container Profiler
+sampling container for the ubuntu release of Python based Container Profiler

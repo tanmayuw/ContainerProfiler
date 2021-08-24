@@ -3,7 +3,8 @@ source $PWD/build.cfg
 
 if [ "$CHECK_ONLINE_RESPONSE" = "${answer#[Yy]}" ] ;
 then
-	docker pull "$ONLINE_IMAGE" ; # Needs to be set to latest release! #TODO on dockerhub
+	#Needs to be set to latest release! #TODO on dockerhub
+	docker pull "$ONLINE_IMAGE" ; 
 else
 	docker build -t "$BUILD_IMAGE_TAG" .
 fi

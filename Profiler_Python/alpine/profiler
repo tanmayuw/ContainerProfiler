@@ -2,7 +2,7 @@
 #======================================================================
 #- IMPLEMENTATION
 #-    version         profiler (https://www.washington.edu/) 0.3
-#-    author          Varik Hoang <varikmp@uw.edu>
+#-    author          Varik Hoang <varikmp@uw.edu> and Tanmay Shah <tanmay@uw.edu>
 #-    copyright       Copyright (c) https://www.washington.edu/
 #-    license         GNU General Public License
 #======================================================================
@@ -44,22 +44,20 @@ then
     PROFILER_TIME_STEPS=0
 fi
 
-echo ""
-echo " Enter verbosity: "
-read verbosity
-
+chmod 777 profiler
+echo "Command is: ${@}"
 
 #echo $PROFILER_TIME_STEPS
 if [ $PROFILER_TIME_STEPS -eq 0 ]
 then
-    python3 ./rudataall-psutil.py -"$verbosity" $PROFILER_OUTPUT_DIR
+    python3 ./rudataall-psutil.py -"$VERBOSITY" $PROFILER_OUTPUT_DIR
     eval $@
-    python3 ./rudataall-psutil.py -"$verbosity" $PROFILER_OUTPUT_DIR
+    python3 ./rudataall-psutil.py -"$VERBOSITY" $PROFILER_OUTPUT_DIR
 else
     eval $@ & PID=$!
     while kill -0 $PID > /dev/null 2>&1
     do
-        python3 ./rudataall-psutil.py -"$verbosity" $PROFILER_OUTPUT_DIR
+        python3 ./rudataall-psutil.py -"$VERBOSITY" $PROFILER_OUTPUT_DIR
         sleep $PROFILER_TIME_STEPS
     done
 fi
