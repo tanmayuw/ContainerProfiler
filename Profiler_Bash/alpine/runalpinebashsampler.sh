@@ -18,4 +18,4 @@ fi
 echo "running..."
 #docker run --rm -it -v ${PWD}/$outdir:/.cprofiles -e DELTA="$delta" "$imagetag" "$command"
 
-docker run --rm  -it -v $PWD/$OUTDIR:/.cprofiles -e VERBOSITY="$VERBOSITY" -e DELTA="$DELTA" "$RUN_IMAGE_TAG" "$COMMAND"
+docker run --rm  -it -v $PWD/$OUTDIR:"/$PROFILER_OUTPUT_DIR" -e OUTPUTDIR="$PROFILER_OUTPUT_DIR" -e VERBOSITY="$VERBOSITY" -e DELTA="$DELTA" "$RUN_IMAGE_TAG" "$COMMAND"
