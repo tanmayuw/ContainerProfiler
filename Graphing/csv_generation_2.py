@@ -56,32 +56,41 @@ for file in dirs:
             if not (k == "pProcesses" or k == "cProcessorStats"):
                 if k in metrics or len(metrics) == 1:
                     r[k] = y[k]
+                    
+                    
         if ("cProcessorStats" in y and "cNumProcessors" in y):
             for k in y["cProcessorStats"]:
                 if (k in metrics or len(metrics) == 0):
                     r[k] = y["cProcessorStats"][k]
-        totalProcesses = len(y["pProcesses"]) - 1
-	#print y["pProcesses"][len(y["pProcesses"]) - 1]
-        for k in y["pProcesses"][totalProcesses]:
-            if k == "pTime":
-                r["pTime"] = y["pProcesses"][totalProcesses]["pTime"]
+        
+        if ("pProcesses" in y):            
+            totalProcesses = len(y["pProcesses"]) - 1
+	    #print y["pProcesses"][len(y["pProcesses"]) - 1]
 	
-        # Loop through the process level data
-        for i in range(totalProcesses):
-            # A dictinary containing process level data
-            s = {"filename": file}
+	
+            for k in y["pProcesses"][totalProcesses]:
+                if k == "pTime":
+                    r["pTime"] = y["pProcesses"][totalProcesses]["pTime"]
+	
+	
+            # Loop through the process level data
+            for i in range(totalProcesses):
+                # A dictinary containing process level data
+                s = {"filename": file}
 
-            for k in y["pProcesses"][i]:
-                s[k] = y["pProcesses"][i][k]
+                for k in y["pProcesses"][i]:
+                    s[k] = y["pProcesses"][i][k]
 
-            s["currentTime"] = r["currentTime"]
+                s["currentTime"] = r["currentTime"]
 
-            # If the process id is already in the processes, append to the list of processes
-            pids = []
-            if y["pProcesses"][i]["pId"] in processes:
-                pids = processes[y["pProcesses"][i]["pId"]]
-            pids.append( s )
-            processes[y["pProcesses"][i]["pId"]] = pids
+                # If the process id is already in the processes, append to the list of processes
+                pids = []
+                if y["pProcesses"][i]["pId"] in processes:
+                    pids = processes[y["pProcesses"][i]["pId"]]
+                pids.append( s )
+                processes[y["pProcesses"][i]["pId"]] = pids
+                
+        #write all metrics to csv file
         vm_container[file] = r
 
 
