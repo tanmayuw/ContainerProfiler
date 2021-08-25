@@ -3,6 +3,7 @@ import os, sys
 import pandas as pd
 import plotly.graph_objects as go
 import argparse
+import shutil
 
 import math
 
@@ -10,11 +11,11 @@ import math
 
 #implemented graphing methods
 def export_graphs_as_images(fig, file_name, title):
-	file_name=file_name.split('.',1)[0]
-	if not os.path.exists(file_name +"_images"):
-		os.mkdir(file_name +"_images")
-	fig.write_image(file_name +"_images/"+title +".png")
-	print("saved image: " +title +".png to " + os.path.abspath(file_name +"_images"))
+    file_name=file_name.split('.',1)[0]
+    if not os.path.exists(file_name +"_images"):
+        os.mkdir(file_name +"_images")
+    fig.write_image(file_name +"_images/"+title +".png")
+    print("saved image: " +title +".png to " + os.path.abspath(file_name +"_images"))
 	
 
 
@@ -116,6 +117,10 @@ data_frame.head()
 data_frame['currentTime'] = data_frame['currentTime'] - data_frame['currentTime'][0]
 data_frame=data_frame.iloc[::args.sampling_interval]
 data_frame.name=args.csv_file
+
+file_name=(data_frame.name).split('.',1)[0]
+if os.path.exists(file_name +"_images"):
+    shutil.rmtree(file_name +"_images")
 
 metrics = args.read_metrics(args.metrics, data_frame)
 print("metrics to graph: {}".format(metrics))
