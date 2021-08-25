@@ -1,8 +1,14 @@
 ,filename,pBlockIODelays,pChildrenKernelMode,pChildrenUserMode,pCmdLine,pCpuTimeKernelMode,pCpuTimeUserMode,pId,pMajorPGFault,pName,pNonvoluntaryContextSwitches,pNumThreads,pPGFault,pResidentSetSize,pVirtualMemoryBytes,pVoluntaryContextSwitches,currentTime
-0,2021_08_21__20_15_32_delta.json,0,0,0,stress-ng-cpu                                     ,0,296,13,0,stress-ng-cpu,7,1,80,503,55595008,70,1629576934
-1,2021_08_21__20_15_34_delta.json,0,0,0,stress-ng-cpu                                     ,0,481,13,0,stress-ng-cpu,8,1,80,503,55595008,78,1629576936
-2,2021_08_21__20_15_36_delta.json,0,0,0,stress-ng-cpu                                     ,0,672,13,0,stress-ng-cpu,10,1,80,503,55595008,88,1629576938
-3,2021_08_21__20_15_38_delta.json,0,0,0,stress-ng-cpu                                     ,0,862,13,0,stress-ng-cpu,12,1,80,503,55595008,98,1629576940
-4,2021_08_21__20_15_40_delta.json,0,0,0,stress-ng-cpu                                     ,0,1046,13,0,stress-ng-cpu,14,1,80,503,55595008,108,1629576942
-5,2021_08_21__20_15_42_delta.json,0,0,0,stress-ng-cpu                                     ,0,1221,13,0,stress-ng-cpu,16,1,80,503,55595008,118,1629576944
-6,2021_08_21__20_15_44_delta.json,0,0,0,stress-ng-cpu                                     ,0,1421,13,0,stress-ng-cpu,18,1,80,503,55595008,128,1629576947
+0,2021_08_25__06_28_38_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,2,412,13,0,stress-ng-cpu,39,1,74,457,55103488,68,1629872922
+1,2021_08_25__06_28_42_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,3,695,13,0,stress-ng-cpu,41,1,74,457,55103488,78,1629872925
+2,2021_08_25__06_28_45_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,4,992,13,0,stress-ng-cpu,43,1,74,457,55103488,88,1629872928
+3,2021_08_25__06_28_48_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,4,1279,13,0,stress-ng-cpu,44,1,74,457,55103488,99,1629872931
+4,2021_08_25__06_28_51_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,4,1562,13,0,stress-ng-cpu,46,1,74,457,55103488,109,1629872934
+5,2021_08_25__06_28_54_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,5,1858,13,0,stress-ng-cpu,48,1,74,457,55103488,118,1629872937
+6,2021_08_25__06_28_57_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,6,2139,13,0,stress-ng-cpu,49,1,74,457,55103488,128,1629872940
+7,2021_08_25__06_29_00_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,7,2409,13,0,stress-ng-cpu,52,1,74,457,55103488,138,1629872943
+8,2021_08_25__06_29_03_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,7,2697,13,0,stress-ng-cpu,53,1,74,457,55103488,148,1629872946
+9,2021_08_25__06_29_06_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,8,2993,13,0,stress-ng-cpu,55,1,74,457,55103488,158,1629872949
+10,2021_08_25__06_29_09_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,8,3272,13,0,stress-ng-cpu,58,1,74,457,55103488,168,1629872952
+11,2021_08_25__06_29_12_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,8,3565,13,0,stress-ng-cpu,60,1,74,457,55103488,178,1629872955
+12,2021_08_25__06_29_15_delta.json,0,0,0,stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,9,3856,13,0,stress-ng-cpu,62,1,74,457,55103488,188,1629872958
