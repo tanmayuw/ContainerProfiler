@@ -1,8 +1,2 @@
-,filename,pBlockIODelays,pChildrenKernelMode,pChildrenUserMode,pCmdLine,pCpuTimeKernelMode,pCpuTimeUserMode,pId,pMajorPGFault,pName,pNonvoluntaryContextSwitches,pNumThreads,pPGFault,pResidentSetSize,pVirtualMemoryBytes,pVoluntaryContextSwitches,currentTime
-0,2021_08_21__20_15_32_delta.json,0,0,0,stress-ng-cpu                                     ,0,308,14,0,stress-ng-cpu,7,1,80,503,55595008,70,1629576934
-1,2021_08_21__20_15_34_delta.json,0,0,0,stress-ng-cpu                                     ,0,492,14,0,stress-ng-cpu,8,1,80,503,55595008,78,1629576936
-2,2021_08_21__20_15_36_delta.json,0,0,0,stress-ng-cpu                                     ,1,679,14,0,stress-ng-cpu,10,1,80,503,55595008,88,1629576938
-3,2021_08_21__20_15_38_delta.json,0,0,0,stress-ng-cpu                                     ,1,858,14,0,stress-ng-cpu,12,1,80,503,55595008,98,1629576940
-4,2021_08_21__20_15_40_delta.json,0,0,0,stress-ng-cpu                                     ,1,1025,14,0,stress-ng-cpu,14,1,80,503,55595008,108,1629576942
-5,2021_08_21__20_15_42_delta.json,0,0,0,stress-ng-cpu                                     ,1,1187,14,0,stress-ng-cpu,16,1,80,503,55595008,118,1629576944
-6,2021_08_21__20_15_44_delta.json,0,0,0,stress-ng-cpu                                     ,1,1380,14,0,stress-ng-cpu,18,1,80,503,55595008,128,1629576947
+,filename,pBlockIODelays,pChildrenKernelMode,pChildrenUserMode,pCmdline,pCpuTimeKernelMode,pCpuTimeUserMode,pId,pInvoluntaryContextSwitches,pName,pNumThreads,pVirtualMemoryBytes,pVoluntaryContextSwitches,currentTime
+0,2021_08_30_17_57_32_delta.json,0.0,0.0,0.0,python3 ./rudataall-psutil.py -p /./.cprofiles,1.0,4.0,14,22,python3,1,47714304,0,1630346323

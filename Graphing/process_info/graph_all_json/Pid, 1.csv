@@ -1,14 +1,6 @@
 ,filename,pBlockIODelays,pChildrenKernelMode,pChildrenUserMode,pCmdLine,pCpuTimeKernelMode,pCpuTimeUserMode,pId,pMajorPGFault,pName,pNonvoluntaryContextSwitches,pNumThreads,pPGFault,pResidentSetSize,pVirtualMemoryBytes,pVoluntaryContextSwitches,currentTime
-0,2021_08_25__06_28_38_delta.json,0,3,24,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,39,1,1580,792,18829312,68,1629872922
-1,2021_08_25__06_28_42_delta.json,0,6,50,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,41,1,1688,793,18829312,78,1629872925
-2,2021_08_25__06_28_45_delta.json,0,6,78,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,43,1,1794,793,18829312,88,1629872928
-3,2021_08_25__06_28_48_delta.json,0,6,107,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,44,1,1907,794,18829312,99,1629872931
-4,2021_08_25__06_28_51_delta.json,0,9,135,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,46,1,2020,794,18829312,109,1629872934
-5,2021_08_25__06_28_54_delta.json,0,10,163,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,48,1,2133,794,18829312,118,1629872937
-6,2021_08_25__06_28_57_delta.json,0,10,189,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,49,1,2244,794,18829312,128,1629872940
-7,2021_08_25__06_29_00_delta.json,0,10,218,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,52,1,2356,794,18829312,138,1629872943
-8,2021_08_25__06_29_03_delta.json,0,11,246,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,53,1,2466,794,18829312,148,1629872946
-9,2021_08_25__06_29_06_delta.json,0,11,275,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,55,1,2578,794,18829312,158,1629872949
-10,2021_08_25__06_29_09_delta.json,0,11,304,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,0,2,1,0,entrypoint.sh,58,1,2689,794,18829312,168,1629872952
-11,2021_08_25__06_29_12_delta.json,0,12,332,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,1,3,1,0,entrypoint.sh,60,1,2802,794,18829312,178,1629872955
-12,2021_08_25__06_29_15_delta.json,0,13,360,/bin/bash /usr/local/bin/entrypoint.sh stress-ng --cpu 2 --cpu-method fft --cpu-ops 50000,1,3,1,0,entrypoint.sh,62,1,2914,794,18829312,188,1629872958
+0,2021_08_30__18_14_25_delta.json,0,9,24,/bin/bash /usr/local/bin/entrypoint.sh bash run_commands.sh,2,2,1,0,entrypoint.sh,24,1,1524,770,18829312,68,1630347268
+1,2021_08_30__18_14_28_delta.json,0,19,46,/bin/bash /usr/local/bin/entrypoint.sh bash run_commands.sh,2,2,1,0,entrypoint.sh,25,1,1631,771,18829312,77,1630347271
+2,2021_08_30__18_14_31_delta.json,0,31,69,/bin/bash /usr/local/bin/entrypoint.sh bash run_commands.sh,3,3,1,0,entrypoint.sh,26,1,1737,771,18829312,88,1630347274
+3,2021_08_30__18_14_34_delta.json,0,39,90,/bin/bash /usr/local/bin/entrypoint.sh bash run_commands.sh,3,3,1,0,entrypoint.sh,27,1,1848,772,18829312,99,1630347278
+4,2021_08_30__18_14_38_delta.json,0,48,113,/bin/bash /usr/local/bin/entrypoint.sh bash run_commands.sh,3,3,1,0,entrypoint.sh,29,1,1960,772,18829312,108,1630347281

@@ -1,0 +1,76 @@
+{
+    "currentTime": 1630346326,
+    "pProcesses": [
+        {
+            "pId": 1,
+            "pCmdline": "/bin/bash ./profiler bash run_commands.sh",
+            "pName": "profiler",
+            "pNumThreads": 1,
+            "pCpuTimeUserMode": 1.0,
+            "pCpuTimeKernelMode": 2.0,
+            "pChildrenUserMode": 14.000000000000002,
+            "pChildrenKernelMode": 2.0,
+            "pVoluntaryContextSwitches": 59,
+            "pInvoluntaryContextSwitches": 28,
+            "pBlockIODelays": 0.0,
+            "pVirtualMemoryBytes": 18829312
+        },
+        {
+            "pId": 13,
+            "pCmdline": "/bin/bash ./profiler bash run_commands.sh",
+            "pName": "profiler",
+            "pNumThreads": 1,
+            "pCpuTimeUserMode": 0.0,
+            "pCpuTimeKernelMode": 0.0,
+            "pChildrenUserMode": 0.0,
+            "pChildrenKernelMode": 0.0,
+            "pVoluntaryContextSwitches": 1,
+            "pInvoluntaryContextSwitches": 0,
+            "pBlockIODelays": 0.0,
+            "pVirtualMemoryBytes": 18829312
+        },
+        {
+            "pId": 15,
+            "pCmdline": "bash run_commands.sh",
+            "pName": "bash",
+            "pNumThreads": 1,
+            "pCpuTimeUserMode": 0.0,
+            "pCpuTimeKernelMode": 0.0,
+            "pChildrenUserMode": 0.0,
+            "pChildrenKernelMode": 0.0,
+            "pVoluntaryContextSwitches": 1,
+            "pInvoluntaryContextSwitches": 5,
+            "pBlockIODelays": 0.0,
+            "pVirtualMemoryBytes": 18829312
+        },
+        {
+            "pId": 16,
+            "pCmdline": "sleep 5",
+            "pName": "sleep",
+            "pNumThreads": 1,
+            "pCpuTimeUserMode": 0.0,
+            "pCpuTimeKernelMode": 0.0,
+            "pChildrenUserMode": 0.0,
+            "pChildrenKernelMode": 0.0,
+            "pVoluntaryContextSwitches": 1,
+            "pInvoluntaryContextSwitches": 2,
+            "pBlockIODelays": 0.0,
+            "pVirtualMemoryBytes": 4653056
+        },
+        {
+            "pId": 22,
+            "pCmdline": "python3 ./rudataall-psutil.py -p /./.cprofiles",
+            "pName": "python3",
+            "pNumThreads": 1,
+            "pCpuTimeUserMode": 4.0,
+            "pCpuTimeKernelMode": 0.0,
+            "pChildrenUserMode": 0.0,
+            "pChildrenKernelMode": 0.0,
+            "pVoluntaryContextSwitches": 0,
+            "pInvoluntaryContextSwitches": 10,
+            "pBlockIODelays": 0.0,
+            "pVirtualMemoryBytes": 47714304
+        }
+    ],
+    "Process_Write_Time": 0.002031
+}

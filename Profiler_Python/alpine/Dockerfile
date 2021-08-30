@@ -1,6 +1,7 @@
 From alpine:3.9.2
 COPY ./profiler .
 COPY ./rudataall-psutil.py .
+COPY ./run_commands.sh .
 ENV PYTHONUNBUFFERED=1
 RUN apk update && apk add python3-dev && apk add linux-headers && apk add util-linux
 RUN apk add --no-cache bash

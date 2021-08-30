@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /data
 COPY ./profiler .
 COPY ./rudataall-psutil.py .
+COPY ./run_commands.sh .
 RUN apt-get update \
     && apt-get install --no-install-recommends -y build-essential gcc cmake libbz2-dev zlib1g-dev python3 python3-dev python3-setuptools python3-pip docker docker.io \
     && pip3 install psutil \

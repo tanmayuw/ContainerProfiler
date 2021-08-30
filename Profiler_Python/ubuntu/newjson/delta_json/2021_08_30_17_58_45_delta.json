@@ -1,0 +1,76 @@
+{
+  "Process_Write_Time": 0.001927,
+  "currentTime": 1630346327,
+  "pProcesses": [
+    {
+      "pBlockIODelays": 0.0,
+      "pChildrenKernelMode": 3.0,
+      "pChildrenUserMode": 19.0,
+      "pCmdline": "/bin/bash ./profiler bash run_commands.sh",
+      "pCpuTimeKernelMode": 2.0,
+      "pCpuTimeUserMode": 1.0,
+      "pId": 1,
+      "pInvoluntaryContextSwitches": 29,
+      "pName": "profiler",
+      "pNumThreads": 1,
+      "pVirtualMemoryBytes": 18829312,
+      "pVoluntaryContextSwitches": 61
+    },
+    {
+      "pBlockIODelays": 0.0,
+      "pChildrenKernelMode": 0.0,
+      "pChildrenUserMode": 0.0,
+      "pCmdline": "/bin/bash ./profiler bash run_commands.sh",
+      "pCpuTimeKernelMode": 0.0,
+      "pCpuTimeUserMode": 0.0,
+      "pId": 13,
+      "pInvoluntaryContextSwitches": 0,
+      "pName": "profiler",
+      "pNumThreads": 1,
+      "pVirtualMemoryBytes": 18829312,
+      "pVoluntaryContextSwitches": 1
+    },
+    {
+      "pBlockIODelays": 0.0,
+      "pChildrenKernelMode": 0.0,
+      "pChildrenUserMode": 0.0,
+      "pCmdline": "bash run_commands.sh",
+      "pCpuTimeKernelMode": 0.0,
+      "pCpuTimeUserMode": 0.0,
+      "pId": 15,
+      "pInvoluntaryContextSwitches": 5,
+      "pName": "bash",
+      "pNumThreads": 1,
+      "pVirtualMemoryBytes": 18829312,
+      "pVoluntaryContextSwitches": 1
+    },
+    {
+      "pBlockIODelays": 0.0,
+      "pChildrenKernelMode": 0.0,
+      "pChildrenUserMode": 0.0,
+      "pCmdline": "sleep 5",
+      "pCpuTimeKernelMode": 0.0,
+      "pCpuTimeUserMode": 0.0,
+      "pId": 16,
+      "pInvoluntaryContextSwitches": 2,
+      "pName": "sleep",
+      "pNumThreads": 1,
+      "pVirtualMemoryBytes": 4653056,
+      "pVoluntaryContextSwitches": 1
+    },
+    {
+      "pBlockIODelays": 0.0,
+      "pChildrenKernelMode": 0.0,
+      "pChildrenUserMode": 0.0,
+      "pCmdline": "python3 ./rudataall-psutil.py -p /./.cprofiles",
+      "pCpuTimeKernelMode": 0.0,
+      "pCpuTimeUserMode": 7.000000000000001,
+      "pId": 24,
+      "pInvoluntaryContextSwitches": 1,
+      "pName": "python3",
+      "pNumThreads": 1,
+      "pVirtualMemoryBytes": 47714304,
+      "pVoluntaryContextSwitches": 0
+    }
+  ]
+}
