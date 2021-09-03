@@ -1,1 +1,1 @@
-Pyton version of the Container Profiler
+Python version of the Container Profiler. It has two environments: Alpine and Ubuntu Linux. 

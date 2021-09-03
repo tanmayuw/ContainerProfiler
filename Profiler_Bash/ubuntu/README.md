@@ -1,1 +1,1 @@
-sampling contianer for ubuntu release of bash based Container profiler
+Sampling container for Ubuntu release of Bash based Container profiler.

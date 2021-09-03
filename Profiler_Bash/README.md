@@ -1,1 +1,1 @@
-Bash version of container profiler. 
+Bash version of container profiler. It has two enviroments: Alpine and Ubuntu Linux. 

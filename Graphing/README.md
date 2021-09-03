@@ -23,7 +23,7 @@
 #### Data deltas are done for you
 
 The JSON from the ContainerProfiler is the raw data collected from many linux metrics aimed to collect information about your Computer's resource utilization. So while there are many alternatives
-to creating graphical visualizations with the collected JSON, certain metrics from the JSON need to have a delta operation done on them. This is because not all linux resource contention metrics are the same. Some are constant values as as the maximum memory in your computer, some are dynamic and will raise or fall such as amount of memory being used currently, and some will only ever rise in value such as the number of write operations performed or time.
+to creating graphical visualizations with the collected JSON, certain metrics from the JSON need to have a delta operation done on them. This is because not all linux resource contention metrics are the same. Some are constant values as the maximum memory in your computer, some are dynamic and will raise or fall such as amount of memory being used currently, and some will only ever rise in value such as the number of write operations performed or time.
 
 These Graphing Scripts by default will delta only metrics that are non-dynamic, and non-static, such that what you see will be a time-series visualization. If you just used any graphing tool with the JSON from the container profiler without any modifications, many of the created graphs may just be straight upward lines.
 
@@ -87,7 +87,7 @@ Install Tkinter (for dynamic graph creation)
 ```bash
 sudo apt-get install python-tk
 ```
-Install Orca dependcies and Orca(needed for image exports)
+Install Orca dependencies and Orca(needed for image exports)
 ```bash
 sudo pip install psutil
 sudo pip install requests

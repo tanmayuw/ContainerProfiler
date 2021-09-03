@@ -1,1 +1,1 @@
-source files common for both alpine and ubuntu releases
+source files common for both Alpine and Ubuntu Python version releases. 

@@ -1,1 +1,1 @@
-sampling container for alpine linux
+sampling container for Alpine Linux Python version of Container Profiler. 

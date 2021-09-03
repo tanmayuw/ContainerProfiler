@@ -1,1 +1,1 @@
-folder containing files common to both container profiler versions.
+folder containing general files including images for README.md .

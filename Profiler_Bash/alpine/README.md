@@ -1,1 +1,1 @@
-Container for smapling in alpine linux
+Container for sampling in Alpine Linux environment for Bash based version of Container Profiler.  
