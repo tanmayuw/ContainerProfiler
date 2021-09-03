@@ -73,6 +73,8 @@ Install Python and Python-pip
 sudo apt install python
 sudo apt-get install python-pip
 Install Pandas
+``` 
+
 ```bash
 sudo pip install pandas
 ```

@@ -30,7 +30,7 @@ generated_script.write("dirs=  sorted([i for i in os.listdir( file_path ) if i.e
 
 generated_script.write("for file_name in dirs:\n")
 generated_script.write("\twith open(file_path + '/' + file_name) as json_file: \n")
-generated_script.write("\t\tprint ('JSON FILES TANMAY:')\n")
+#generated_script.write("\t\tprint ('JSON FILES TANMAY:')\n")
 generated_script.write("\t\tprint(json_file)\n")
 generated_script.write("\t\ttry:\n")
 

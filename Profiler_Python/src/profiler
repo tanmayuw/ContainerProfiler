@@ -57,7 +57,23 @@ else
     eval $@ & PID=$!
     while kill -0 $PID > /dev/null 2>&1
     do
-        python3 ./rudataall-psutil.py -"$VERBOSITY" $PROFILER_OUTPUT_DIR
-        sleep $PROFILER_TIME_STEPS
+        #____ This stub does not account for profiling overhead
+        #python3 ./rudataall-psutil.py -"$VERBOSITY" $PROFILER_OUTPUT_DIR
+        #sleep $PROFILER_TIME_STEPS
+        #____
+
+        #____ This stub accounts for profiling overhead
+        	t1=$(date '+%s%3N')
+          python3 ./rudataall-psutil.py -"$VERBOSITY" $PROFILER_OUTPUT_DIR
+          t2=$(date '+%s%3N')
+          let diff=$t2-$t1
+          let profile_time=`echo diff / 1000 | bc -l`
+          let sleep_time=$PROFILER_TIME_STEPS-$profile_time
+          #sleep_time=`echo $sleep_time / 1000 | bc -l`
+          if [ $sleep_time -gt 0 ]
+          then
+            sleep $sleep_time
+          fi
+        #____
     done
 fi
