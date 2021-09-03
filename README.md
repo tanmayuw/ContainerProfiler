@@ -7,7 +7,7 @@ University of Washington Tacoma
    * [MANUAL](#manual)
      * [Container Profiler](#container-profiler-1)
          * [General Information](#general-information)
-         * [Overview](#overview-running-the-container-Profiler)
+         * [Overview](#overview)
      * [Tutorial - Profiling a Container](#tutorial-profiling-a-container)
        * [Video Demonstration](#video-demonstration)
        * [Install the Container Profiler](#Install-the-Container-Profiler)
