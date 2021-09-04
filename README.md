@@ -133,7 +133,7 @@ It shows the image IDs to the user and allows the user to remove them.
 # Tutorial: Profiling a Container
 
 ## Video Demonstration
-**Video:**     https://youtu.be/X-_7zqeyffk
+**Video:**     https://youtu.be/HzuDeuPpE1g
 
 ## Install the Container Profiler
 ```bash
