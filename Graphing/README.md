@@ -161,6 +161,9 @@ python3 graph_all.py -f dir_path dir_path1 dir_path2 -m cId vCpuTime -s 60
 
 I have created a docker container for graphing. It is available as `tanmayuw/cp_graphing:minimal` and `tanmayuw/cp_graphing:latest`.
 
+##video demonstration
+Here is a video demonstration: https://youtu.be/_LEMn2Xh1tM
+
 To use that image, you need to pull it first. I recommend using `tanmayuw/cp_graphing:minimal` as it is a smaller image: 
 ```bash
 docker pull tanmayuw/cp_graphing:minimal

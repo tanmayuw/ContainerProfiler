@@ -1,3 +1,5 @@
+#Authors: David Perez and Tanmay Shah
+
 import json
 import os
 import pandas as pd

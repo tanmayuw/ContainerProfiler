@@ -1,4 +1,6 @@
 #!/bin/bash
+#author: Tanmay Shah <tanmay@uw.edu>
+
 echo "Found the following dangling images: "
 docker images --filter "dangling=true" -q --no-trunc
 

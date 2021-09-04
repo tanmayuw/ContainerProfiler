@@ -1,4 +1,6 @@
 #Creates a script based on graph_generation_config.ini to create a delta script to delta certain metrics, and avoids others.
+#authors: David Perez and Tanmay Shah
+
 import argparse
 import os
 import json

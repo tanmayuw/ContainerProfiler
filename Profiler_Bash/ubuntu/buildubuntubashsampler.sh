@@ -1,4 +1,6 @@
 #!/bin/bash
+#author: Tanmay Shah <tanmay@uw.edu>
+
 source $PWD/build.cfg
 
 if [ "$CHECK_ONLINE_RESPONSE" = "${answer#[Yy]}" ] ;

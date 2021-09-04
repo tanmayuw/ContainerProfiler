@@ -1,3 +1,4 @@
+#author: David Perez
 from plotly.subplots import make_subplots
 import random
 import json

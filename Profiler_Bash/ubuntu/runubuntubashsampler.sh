@@ -1,4 +1,6 @@
 #!/bin/bash
+#author: Tanmay Shah <tanmay@uw.edu>
+
 source run.cfg
 mkdir $OUTDIR
 

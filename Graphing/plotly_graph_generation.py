@@ -1,3 +1,4 @@
+#authors: David Perez and Tanmay Shah
 from plotly.subplots import make_subplots
 import os, sys
 import pandas as pd
