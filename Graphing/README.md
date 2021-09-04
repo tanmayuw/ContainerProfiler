@@ -36,7 +36,7 @@ This can be done with any JSON from the Container Profiler, by included by defau
 
 To create time-series graphs using this sample JSON folder, from the command line you can call:
 ```bash
-python graph_all.py -f ./json
+python3 graph_all.py -f ./json
 ```
 ### How do I control which metrics are delta'd and which are raw?
 Included in the repository is a config.ini file named delta_configuration.ini
@@ -68,15 +68,27 @@ On Debian based distros such as Ubuntu the package manager is apt-get
 sudo apt-get -y update
 ```
 
-Install Python and Python-pip
+Install Python (both 2 and 3) and Python-pip
 ```bash
+sudo apt install python3
 sudo apt install python
-sudo apt-get install python-pip
-Install Pandas
+sudo apt-get install python3-pip
 ``` 
-
+Install MiniConda (https://docs.conda.io/en/latest/miniconda.html)
 ```bash
-sudo pip install pandas
+sudo apt-get install -y wget
+sudo wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sudo bash Miniconda3-latest-Linux-x86_64.sh
+sudo rm -f Miniconda3-latest-Linux-x86_64.sh 
+````
+Refresh/Restart your shell and check if conda was installed properly
+```bash
+conda --version
+```
+
+Install Pandas
+```bash
+sudo conda install pandas
 ```
 Install Plotly and Matplotlib
 ```bash
@@ -90,10 +102,15 @@ sudo apt-get install python-tk
 Install Orca dependencies and Orca(needed for image exports)
 ```bash
 sudo pip install psutil
-sudo pip install requests
+sudo conda install requests
 sudo apt install npm
-sudo npm install -g electron@1.8.4 orca
+npm install -g electron@1.8.4 --unsafe-perm=true --allow-root
 ```
+Install kaleido
+```bash
+sudo pip install -U kaleido
+```
+
 Additional dependencies that may be needed incase you are on a 64bit machine with 32-bit software
 ```bash
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
@@ -105,7 +122,7 @@ sudo apt install libgconf-2-4
 
 After you have installed the dependencies on your machine, Graphs of any Container Profiler JSON folder(s) can be made. Basic Time-Series graphing of all metrics of a run can be performed with the command:
 ```bash
-python graph_all.py -f ./json.
+python3 graph_all.py -f ./json.
 ```
 ### Flags
 
@@ -120,23 +137,23 @@ python graph_all.py -f ./json.
 
 Creating Graphs from two folders
 ```bash
-python graph_all.py -f dir_path dir_path2
+python3 graph_all.py -f dir_path dir_path2
 ```
 Creating Graphs with a delta interval of 5 seconds
 ```bash
-python graph_all.py -f dir_path -s 5
+python3 graph_all.py -f dir_path -s 5
 ```
 Creating Graphs with a delta interval of 10 seconds
 ```bash
-python graph_all.py -f dir_path -s 10
+python3 graph_all.py -f dir_path -s 10
 ```
 Creating Graphs only with the metrics of currentTime, cId, and vCpuTime
 ```bash
-python graph_all.py -f dir_path -m currentTime cId vCpuTime
+python3 graph_all.py -f dir_path -m currentTime cId vCpuTime
 ```
 Creating graphs from multiple folders with only metrics from cId and vCpuTime with a sampling interval of 60
 ```bash
-python graph_all.py -f dir_path dir_path1 dir_path2 -m cId vCpuTime -s 60
+python3 graph_all.py -f dir_path dir_path1 dir_path2 -m cId vCpuTime -s 60
 ```
 
 
