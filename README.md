@@ -179,9 +179,8 @@ In this tutorial, I will only be testing a single command which I can input late
 ![](./common/demo_runcfg.PNG)
 
 6) Now, you can execute `sudo bash run<environment><version>sampler.sh` to run the built container. 
- Make sure that the RUN_IMAGE_TAG is set to the tag of the image you built and want to run.  
-  Don't worry if you see an error like cat: `/sys/fs/cgroup/blkio/blkio.sectors` as that metric is no 
-  longer maintained in newer versions of Linux kernel. 
+ Make sure that the RUN_IMAGE_TAG is set to the tag of the image you built and want to run. Don't worry if you see an 
+   error like `cat: /sys/fs/cgroup/blkio/blkio.sectors` as that metric is no longer maintained in newer versions of Linux kernel. 
 
 ![](./common/demo_runscript.PNG)
 
