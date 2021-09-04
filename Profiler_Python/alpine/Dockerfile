@@ -1,4 +1,4 @@
-From alpine:3.9.2
+From alpine:3.11.3
 COPY ./profiler .
 COPY ./rudataall-psutil.py .
 COPY ./run_commands.sh .

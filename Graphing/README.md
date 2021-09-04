@@ -156,5 +156,27 @@ Creating graphs from multiple folders with only metrics from cId and vCpuTime wi
 python3 graph_all.py -f dir_path dir_path1 dir_path2 -m cId vCpuTime -s 60
 ```
 
+# Using a pre - built Graphing image
 
+I have created a docker container for graphing. It is available as `tanmayuw/cp_graphing:minimal` and `tanmayuw/cp_graphing:latest`.
 
+To use that image, you need to pull it first. I recommend using `tanmayuw/cp_graphing:minimal` as it is a smaller image: 
+```bash
+docker pull tanmayuw/cp_graphing:minimal
+```
+Then, change your current working directory to the directory containing the JSON samples. If the 
+directory containing the JSON samples is newjson_test, then: 
+```bash
+cd <path to new_json_test>/newjson_test
+docker run -it -v $PWD:/input -v $PWD/output:/output  tanmayuw/cp_graphing:minimal bash
+```
+This will open up a container built from the pulled image in an interactive mode.
+Note that you must use this container in an interactive mode. 
+Next, enter the following commands:
+```bash
+python3 graph_all.py -f input
+mv vm_container_images/* output
+exit
+```
+In the end, you will have the generated plots in the `output` directory within your directory 
+containing the JSON samples. In this case, the graphs will be in the `output` directory of the newjson_test directory. 

@@ -160,7 +160,7 @@ For this tutorial, I am using the Alpine Python version:
 2) Next, open the `Dockerfile` to specify the packages to be installed for your custom container. 
     I am currently testing the Alpine Python version with `stress-ng` package, and so I added the 
     RUN commands in dockerfile to install it on my container. In a similar manner, you can add your 
-    own required packages. DO NOT CHANGE ANYTHING ELSE.
+    own required packages and change the environment/OS version. DO NOT CHANGE ANYTHING ELSE.
 
 ![](./common/demo_dockerfile.PNG)
 
