@@ -11,9 +11,10 @@
       * [Setup and Dependencies](#setup-and-dependencies)
          * [Linux](#linux)
       * [Graphing](#graphing)
-	 * [Metrics](#metrics)
-	 * [Flags](#flags)
-	 * [Example Runs](#example-runs)
+      * [Metrics](#metrics)
+      * [Flags](#flags)
+      * [Example Runs](#example-runs)
+   * [Using a pre - built Graphing image](#using-a-pre---built-graphing-image)
 
 # FAQ
 ## General
