@@ -130,7 +130,7 @@ The syntax to create the graphs is:
 python3 graph_all.py -f <relative path to the folder with collected samples>
 ```
 
-Basic Time-Series graphing of all metrics of a run can be performed with the command:
+An example basic Time-Series graphing of all metrics of a run can be performed with the command:
 ```bash
 python3 graph_all.py -f ./json.
 ```
