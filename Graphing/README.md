@@ -60,6 +60,8 @@ These Graphs are saved locally and can be created in a browser dynamically.
 
 ## Setup and Dependencies
 
+**NOTE:** In case any dependencies installed using pip are not properly working, reinstall them using conda. 
+
 ### Linux
 <a name="DockerInstall"></a>
 1\. Update your package manager index. 
@@ -93,8 +95,8 @@ sudo conda install pandas
 ```
 Install Plotly and Matplotlib
 ```bash
-sudo pip install plotly
-sudo pip install matplotlib
+sudo conda install plotly
+sudo conda install matplotlib
 ```
 Install Tkinter (for dynamic graph creation)
 ```bash
