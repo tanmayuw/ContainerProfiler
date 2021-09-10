@@ -125,9 +125,9 @@ sudo apt install libgconf-2-4
 
 After you have installed the dependencies on your machine, Graphs of any Container Profiler JSON folder(s) can be made.
 
-The syntax to create the graph is:
+The syntax to create the graphs is:
 ```bash
-python3 graph_all.py -f < relative path to the folder with collected samples >
+python3 graph_all.py -f <relative path to the folder with collected samples>
 ```
 
 Basic Time-Series graphing of all metrics of a run can be performed with the command:
