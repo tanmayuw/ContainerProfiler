@@ -123,7 +123,14 @@ sudo apt install libgconf-2-4
 
 ## Graphing
 
-After you have installed the dependencies on your machine, Graphs of any Container Profiler JSON folder(s) can be made. Basic Time-Series graphing of all metrics of a run can be performed with the command:
+After you have installed the dependencies on your machine, Graphs of any Container Profiler JSON folder(s) can be made.
+
+The syntax to create the graph is:
+```bash
+python3 graph_all.py -f < relative path to the folder with collected samples >
+```
+
+Basic Time-Series graphing of all metrics of a run can be performed with the command:
 ```bash
 python3 graph_all.py -f ./json.
 ```
@@ -163,7 +170,7 @@ python3 graph_all.py -f dir_path dir_path1 dir_path2 -m cId vCpuTime -s 60
 
 I have created a docker container for graphing. It is available as `tanmayuw/cp_graphing:minimal` and `tanmayuw/cp_graphing:latest`.
 
-##video demonstration
+## video demonstration
 Here is a video demonstration: https://youtu.be/_LEMn2Xh1tM
 
 To use that image, you need to pull it first. I recommend using `tanmayuw/cp_graphing:minimal` as it is a smaller image: 
